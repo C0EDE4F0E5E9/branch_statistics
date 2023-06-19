@@ -29,10 +29,10 @@ def convert_sql_to_excel():
     sql_list = []
     folder_scan(templates.SQL_path, sql_list)
     sql_list.sort()
-    result_ex = creat_data_frame_from_bd(templates.result_E_list, templates.columns_names_map_se)
-    result_st = creat_data_frame_from_bd(templates.result_S_list, templates.columns_names_map_se)
-    result_inv = creat_data_frame_from_bd(templates.result_I_list, templates.columns_names_map_inv)
-    result_consult = creat_data_frame_from_bd(templates.result_C_list, templates.columns_names_map_consult)
+    result_ex = create_data_frame_from_bd(templates.result_E_list, templates.columns_names_map_se)
+    result_st = create_data_frame_from_bd(templates.result_S_list, templates.columns_names_map_se)
+    result_inv = create_data_frame_from_bd(templates.result_I_list, templates.columns_names_map_inv)
+    result_consult = create_data_frame_from_bd(templates.result_C_list, templates.columns_names_map_consult)
 
     with pd.ExcelWriter(
             'result_queries\\' + 'Статистика c ' + templates.start_date + ' по ' + templates.end_date + '.xlsx',
