@@ -17,7 +17,7 @@ def create_actual_db():
     return result_db
 
 
-def creat_data_frame_from_bd(name_list: list, columns_map: dict) -> object:
+def create_data_frame_from_bd(name_list: list, columns_map: dict) -> object:
     """Функция создает 'Pandas DataFrame' из списка полученного после обработки журналов EXCEL"""
     df = pd.DataFrame(name_list)
     df = df.rename(columns=columns_map)
