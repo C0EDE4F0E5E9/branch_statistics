@@ -1,0 +1,26 @@
+{
+  "start_year": "1980-01-01",
+  "start_date": "1980-01-01",
+  "end_date": "1980-01-01",
+  "templates_path" : "templates\\CSV",
+  "SQL_path": "templates\\SQL_queries",
+  "db_path": "templates\\database\\data_template.db",
+  "reference_files": ["dict_column_names_cons.csv",
+                      "dict_column_names_se.csv",
+                      "dict_column_names_inv.csv",
+                      "dict_columns_names_map_consult.csv",
+                      "dict_columns_names_map_inv.csv",
+                      "dict_columns_names_map_se.csv",
+                      "dict_column_names_dna.csv",
+                      "dict_index.csv",
+                      "dict_index_complexity.csv",
+                      "dict_index_type_exp.csv",
+                      "dict_match_table_branch.csv",
+                      "dict_region_id.csv",
+                      "dict_sheet_name.csv",
+                      "dict_territory.csv",
+                      "list_format_date.csv",
+                      "list_regex_direction.csv"
+  ]
+
+}
